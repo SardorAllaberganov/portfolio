@@ -1,7 +1,7 @@
 var app = angular.module('portfolio', ['ngRoute']);
 
 app.component("navbar", {
-  templateUrl: '/inc/navbar.html',
+  templateUrl: 'sardorallaberganov.github.io/portfolio.github.io/inc/navbar.html',
   // templateUrl: '/shirtShop.github.io/navbar.html',
   controller: 'portfolio',
 });
