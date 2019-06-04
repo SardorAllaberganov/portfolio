@@ -261,7 +261,7 @@ html, body {
   position: relative;
   -webkit-transition: all .3s;
   transition: all .3s;
-  background-image: url("/portfolio.github.io/../img/header-image.png");
+  background-image: url("../img/header-image.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
