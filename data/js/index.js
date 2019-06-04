@@ -1,12 +1,12 @@
 var app = angular.module('portfolio', ['ngRoute']);
 
 app.component("navbar", {
-  templateUrl: 'sardorallaberganov.github.io/portfolio.github.io/inc/navbar.html',
+  templateUrl: '/portfolio.github.io/inc/navbar.html',
   // templateUrl: '/shirtShop.github.io/navbar.html',
   controller: 'portfolio',
 });
 app.component("sidebar", {
-  templateUrl: '/inc/sidebar.html',
+  templateUrl: '/portfolio.github.io/inc/sidebar.html',
   // templateUrl: '/shirtShop.github.io/navbar.html',
   controller: 'portfolio',
 });
@@ -17,25 +17,25 @@ app.config(function($routeProvider) {
 
     // route for the home page
     .when('/', {
-      templateUrl : '/pages/home.html',
+      templateUrl : '/portfolio.github.io/pages/home.html',
       controller  : 'portfolio'
     })
 
     // route for the about page
     .when('/about', {
-      templateUrl : 'pages/about.html',
+      templateUrl : '/portfolio.github.io/pages/about.html',
       controller  : 'about'
     })
 
     // route for the skills page
     .when('/skills', {
-      templateUrl : 'pages/skills.html',
+      templateUrl : '/portfolio.github.io/pages/skills.html',
       controller  : 'portfolio'
     })
 
     // route for the porfolio page
     .when('/portfolio', {
-      templateUrl : 'pages/portfolio.html',
+      templateUrl : '/portfolio.github.io/pages/portfolio.html',
       controller  : 'portfolio'
     })
 
@@ -49,16 +49,16 @@ app.config(function($routeProvider) {
 
 app.controller("portfolio", ["$scope", function ($scope) {
   $scope.hoverIn = function(){
-    $(".mainBlock").css("background-image", "url('/data/img/header-image.png')");
+    $(".mainBlock").css("background-image", "url('/portfolio.github.io/data/img/header-image.png')");
   };
   $scope.hoverIn1 = function(){
-    $(".mainBlock").css("background-image", "url('/data/img/skills.jpg')");
+    $(".mainBlock").css("background-image", "url('/portfolio.github.io/data/img/skills.jpg')");
   };
   $scope.hoverIn2 = function(){
-    $(".mainBlock").css("background-image", "url('/data/img/portfolio.jpg')");
+    $(".mainBlock").css("background-image", "url('/portfolio.github.io/data/img/portfolio.jpg')");
   };
   $scope.hoverIn3 = function(){
-    $(".mainBlock").css("background-image", "url('/data/img/contact.jpg')");
+    $(".mainBlock").css("background-image", "url('/portfolio.github.io/data/img/contact.jpg')");
   };
   $scope.openMenu = function(){
     $(".hamburger").toggleClass("menu-active");
