@@ -261,7 +261,7 @@ html, body {
   position: relative;
   -webkit-transition: all .3s;
   transition: all .3s;
-  background-image: url("../img/header-image.png");
+  background-image: url("../img/header-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -309,7 +309,7 @@ html, body {
 }
 
 .aboutme {
-  background: url("../img/me.jpg");
+  background: url("data/img/me.jpg");
   height: 100vh;
   width: 100%;
   background-repeat: no-repeat;
