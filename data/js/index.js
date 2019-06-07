@@ -49,7 +49,7 @@ app.config(function($routeProvider) {
 
 app.controller("portfolio", ["$scope", function ($scope) {
   $scope.hoverIn = function(){
-    $(".mainBlock").css("background-image", "url('/portfolio.github.io/data/img/header-image.png')");
+    $(".mainBlock").css("background-image", "url('/portfolio.github.io/data/img/header-image.jpg')");
   };
   $scope.hoverIn1 = function(){
     $(".mainBlock").css("background-image", "url('/portfolio.github.io/data/img/skills.jpg')");
